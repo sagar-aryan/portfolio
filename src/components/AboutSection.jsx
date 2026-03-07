@@ -97,7 +97,7 @@ const AboutSection = () => {
                 <div className="w-full md:w-1/2 flex items-center justify-center md:pl-10 mt-10 md:mt-0">
                     <div ref={imageRef} className="relative w-full max-w-md aspect-[3/4] rounded-2xl overflow-hidden shadow-glow-green-strong border border-matrix-green/30 group">
                         <img 
-                            src="/data/aryan_sagar_portrait..jpg" 
+                            src="/data/aryan_sagar_portrait.jpg" 
                             alt="Aryan Sagar Portrait" 
                             className="w-full h-full object-cover transition-all duration-700 scale-105 group-hover:scale-100"
                             onError={(e) => { e.target.style.display = 'none'; }}
